@@ -1,0 +1,1 @@
+These files have been consolidated from several repositories in the [Leventhal Lab organization](https://github.com/LeventhalLab). Therefore, some paths may need to be adjusted. The _Data_ folder has been removed because of size constraints, but is [publically available on Box](https://umich.box.com/s/ydjlprk5csdmagzylgpxd8a0z6gyxcls).
