@@ -1,9 +1,8 @@
  % MRLXFREQ
 % came from: /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/entrainPlots.m
 if ~exist('entrain_hist')
-    load('20190318_entrain.mat')
-    load('session_20181218_highresEntrainment.mat','dirSelUnitIds','ndirSelUnitIds','primSec')
-    load('session_20181218_highresEntrainment.mat', 'eventFieldnames')
+%     load('20190318_entrain.mat')
+    load('Figure 5-Source Data.mat')
 end
 
 % init

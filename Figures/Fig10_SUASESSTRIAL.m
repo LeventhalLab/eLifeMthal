@@ -1,10 +1,6 @@
 % SUASESSTRIAL, still using doSetup to init values, !!consider saving structures
 if ~exist('all_ts')
-    load('session_20180919_NakamuraMRL.mat', 'eventFieldnames')
-    load('session_20180919_NakamuraMRL.mat', 'all_trials')
-    load('session_20180919_NakamuraMRL.mat', 'LFPfiles_local')
-    load('session_20180919_NakamuraMRL.mat', 'selectedLFPFiles')
-    load('session_20180919_NakamuraMRL.mat', 'all_ts')
+    load('Figure 10-Source Data');
 end
 
 figPath = ''; % !! set

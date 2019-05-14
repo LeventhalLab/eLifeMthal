@@ -1,8 +1,7 @@
 % see /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/spikeXcorrGenerator.m
 if ~exist('lag')
-    load('20190402_xcorr');
-    load('20190321_xcorr_poisson_allUnits.mat', 'tXcorr', 'lag')
-    load('session_20181218_highresEntrainment.mat','dirSelUnitIds','ndirSelUnitIds','primSec');
+%     load('20190402_xcorr');
+    load('Figure 7-Source Data');
 end
 
 close all

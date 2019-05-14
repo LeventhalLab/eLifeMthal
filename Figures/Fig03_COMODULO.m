@@ -1,6 +1,7 @@
 % COMODULO, see: Canolty_Comodulogram_trialStitched.m
 if ~exist('corrMatrix_rho')
-    load('Canolt_comodulogram_20190122.mat')
+%     load('Canolt_comodulogram_20190122.mat')
+    load('Figure 3-Source Data.mat')
     load('session_20180919_NakamuraMRL.mat', 'eventFieldnames')
 end
 corrMatrix = squeeze(mean(corrMatrix_rho));

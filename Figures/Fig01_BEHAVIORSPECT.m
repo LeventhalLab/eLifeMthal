@@ -1,6 +1,9 @@
 % run Fig01_BEHAVIORSPECT_setup.m to setup
 
-figPath = '/Users/mattgaidica/Box Sync/Leventhal Lab/Manuscripts/Mthal LFPs/Figures';
+% load('20190404_sessionFFT_setup.mat');
+load('Figure 1-Source Data.mat');
+
+figPath = ''; % !! set fig path
 fileNames = {'','_highFreq'};
 doSave = true;
 doLabels = false;

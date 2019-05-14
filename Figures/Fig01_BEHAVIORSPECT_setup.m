@@ -1,9 +1,6 @@
 % code from simpleFFT.m
 if ~exist('eventFieldnames')
-    load('session_20180925_entrainmentSurrogates.mat', 'LFPfiles_local')
-    load('session_20180925_entrainmentSurrogates.mat', 'selectedLFPFiles')
-    load('session_20180925_entrainmentSurrogates.mat', 'all_trials')
-    load('session_20180925_entrainmentSurrogates.mat', 'eventFieldnames')
+    load('Figure 1-Source Data');
 end
 
 savePath = ''; % !! set your save path
@@ -49,6 +46,7 @@ if doSetup
     fnew = equalVectors(f,zeros(1,makeLength));
 end
 % % save('20190404_sessionFFT_setup','all_A_in','all_A_out','fnew');
+save('Figure 1-Source Data','all_A_in','all_A_out','fnew');
 
 xlimVals = [1 200];
 f1_idx = closest(fnew,xlimVals(1));

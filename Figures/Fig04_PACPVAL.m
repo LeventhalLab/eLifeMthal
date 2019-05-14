@@ -1,12 +1,13 @@
 % PACPVAL
 % from /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/CanoltyPAC_trialStitched_print.m
 if ~exist('MImatrix')
-    load('20190416_PACPVAL');
+%     load('20190416_PACPVAL');
+    load('Figure 4-Source Data');
 end
 
 close all
 
-figPath = '/Users/mattgaidica/Box Sync/Leventhal Lab/Manuscripts/Mthal LFPs/Figures';
+figPath = ''; % !! set fig path
 subplotMargins = [.03 .01];
 
 doSave = true;

@@ -1,9 +1,9 @@
 % XCORRLINES
 if ~exist('tXcorr')
-    load('20190402_xcorr.mat')
-    load('20190321_xcorr_poisson_allUnits.mat', 'tXcorr', 'lag')
-    load('session_20181218_highresEntrainment.mat','dirSelUnitIds','ndirSelUnitIds','primSec');
-    load('20190321_xcorr_poisson_allUnits')
+%     load('20190321_xcorr_poisson_allUnits')
+    load('Figure 7-Source Data')
+%     load('20190402_xcorr.mat')
+    load('Figure 8-Source Data')
 end
 
 close all

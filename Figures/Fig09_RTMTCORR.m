@@ -1,5 +1,5 @@
 if ~exist('eventFieldnames')
-    load('session_20180919_NakamuraMRL.mat', 'eventFieldnames')
+    load('Figure 9-Source Data');
 end
 doSetup = false;
 doLabels = false;
@@ -7,7 +7,7 @@ doSave = true;
 close all
 
 figPath = ''; % !! set
-savePath = ''; % !! set
+savePath = ''; % !! set (Load RTMT Corr data)
 subplotMargins = [.03 .02;];
 
 dirFiles = dir(fullfile(savePath,'*.mat'));
