@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % DELTAMRL
 if ~exist('data_source')
 %     load('20190416_DELTAMRL.mat')

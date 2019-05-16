@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % XCORRLINES
 if ~exist('tXcorr')
 %     load('20190321_xcorr_poisson_allUnits')

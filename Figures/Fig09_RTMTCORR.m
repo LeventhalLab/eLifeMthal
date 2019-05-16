@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 if ~exist('eventFieldnames')
     load('Figure 9-Source Data');
 end

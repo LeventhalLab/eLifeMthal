@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % PACPVAL
 % from /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/CanoltyPAC_trialStitched_print.m
 if ~exist('MImatrix')

@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % PHASEBINS
 % came from: entrainPlots.m
 if ~exist('entrain_hist')

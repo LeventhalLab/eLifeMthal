@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % COMODULO, see: Canolty_Comodulogram_trialStitched.m
 if ~exist('corrMatrix_rho')
 %     load('Canolt_comodulogram_20190122.mat')

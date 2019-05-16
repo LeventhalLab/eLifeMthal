@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % run Fig01_BEHAVIORSPECT_setup.m to setup
 
 % load('20190404_sessionFFT_setup.mat');

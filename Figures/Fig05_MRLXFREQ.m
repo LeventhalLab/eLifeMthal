@@ -1,4 +1,6 @@
- % MRLXFREQ
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
+% MRLXFREQ
 % came from: /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/entrainPlots.m
 if ~exist('entrain_hist')
 %     load('20190318_entrain.mat')

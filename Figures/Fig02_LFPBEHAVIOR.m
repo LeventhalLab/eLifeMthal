@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % LFPBEHAVIOR
 if ~exist('session_Wz_power')
 %     load('fig__spectrum_MRL_20181108');

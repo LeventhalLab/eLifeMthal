@@ -1,3 +1,5 @@
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 % SUASESSTRIAL, still using doSetup to init values, !!consider saving structures
 if ~exist('all_ts')
     load('Figure 10-Source Data');

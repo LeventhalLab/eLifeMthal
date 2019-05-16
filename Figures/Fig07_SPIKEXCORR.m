@@ -1,4 +1,5 @@
-% see /Users/mattgaidica/Documents/MATLAB/LeventhalLab/Development/ChoiceTask/LFPs/explore/spikeXcorrGenerator.m
+% Usage: Update the filepaths and set options below. Default usage produces the figure and saves it as an EPS file.
+
 if ~exist('lag')
 %     load('20190402_xcorr');
     load('Figure 7-Source Data');
