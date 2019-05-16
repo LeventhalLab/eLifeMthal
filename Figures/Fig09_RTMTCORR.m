@@ -3,32 +3,14 @@
 if ~exist('eventFieldnames')
     load('Figure 9-Source Data');
 end
-doSetup = false;
+doSetup = true;
 doLabels = false;
 doSave = true;
 close all
 
 figPath = ''; % !! set
-savePath = ''; % !! set (Load RTMT Corr data)
 subplotMargins = [.03 .02;];
 
-dirFiles = dir(fullfile(savePath,'*.mat'));
-corrFiles = {dirFiles.name};
-
-if doSetup
-    all_pow_rho = [];
-    all_pow_pval = [];
-    all_pha_rho = [];
-    all_pha_pval = [];
-    for iFile = 1:numel(corrFiles)
-        disp(['loading ',num2str(iFile)]);
-        load(fullfile(savePath,corrFiles{iFile}));
-        all_pow_rho(iFile,:,:,:,:) = all_powerCorrs;
-        all_pow_pval(iFile,:,:,:,:) = all_powerPvals;
-        all_pha_rho(iFile,:,:,:,:) = all_phaseCorrs;
-        all_pha_pval(iFile,:,:,:,:) = all_phasePvals;
-    end
-end
 
 timingFields = {'RT','MT'};
 powerLabel = {'power','phase'};
